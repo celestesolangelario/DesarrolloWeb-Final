@@ -3,6 +3,7 @@
 
 header{
     background-color: #ab748b;
+
     .logo{
         display: flex;  
     }
@@ -30,9 +31,7 @@ body{
 @media only screen and (max-width:768px){
         body{
             background-color: #ab748b;
-        }
-
-}
+}}
 
 }
 

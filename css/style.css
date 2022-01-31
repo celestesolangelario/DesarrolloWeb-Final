@@ -1,0 +1,37 @@
+/* importar*/
+/*anidamiento*/
+/*variables*/
+header {
+  background-color: #ab748b;
+  /*media query header*/
+}
+header .logo {
+  display: flex;
+}
+header .logo {
+  background-color: #ab748b;
+  justify-content: center;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+header nav {
+  background-color: #ab748b;
+  padding: 20px;
+}
+header nav ul li {
+  list-style-type: circle;
+}
+@media screen and (min-width: 980px) {
+  header {
+    background-color: #ab748b;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header body {
+    background-color: var(--color-sec);
+  }
+}
+
+/*variables*/
+
+/*# sourceMappingURL=style.css.map */

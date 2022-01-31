@@ -1,0 +1,34 @@
+/*anidamiento*/
+@import "../base/variables";
+header{
+    background-color: $bg-color;
+    .logo{
+        display: flex;  
+    }
+    .logo{
+        background-color: #ab748b;
+        justify-content: center;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+    }
+    nav{
+        background-color: #ab748b;
+        padding: 20px;
+        ul{
+            li{
+                list-style-type: circle;
+            }
+        }
+    }
+/*media query header*/
+@media screen and (min-width:980px) {
+    background-color:#ab748b;}
+
+@media only screen and (max-width:768px){
+        body{
+            background-color: var(--color-sec);
+        }
+
+}
+
+}

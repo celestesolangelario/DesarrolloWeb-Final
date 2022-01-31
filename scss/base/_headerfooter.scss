@@ -1,5 +1,9 @@
 /*anidamiento*/
-@import "../base/listas";
+@import "../../scss/base/_variables";
+@import "../../scss/base/_listas";
+
+
+
 
 header{
     background-color: #ab748b;
@@ -17,7 +21,7 @@ header{
         background-color: #ab748b;
         padding: 20px;
         ul{
-            li{
+            li .animaciones{
                 list-style-type: circle;
             }
         }
@@ -30,14 +34,15 @@ body{
 
 @media only screen and (max-width:768px){
         body{
-            background-color: #ab748b;
-}}
+            background-color: #ab748b;}
+}
 
 }
 
 footer{
     h1{
         color: #ab748b;
+        font-family: $fuentes1;
         
     }
 }

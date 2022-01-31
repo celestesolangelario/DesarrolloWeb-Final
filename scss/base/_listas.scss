@@ -1,7 +1,7 @@
 /*listas*/
-@import "../base/header_footer";
-@import "../base/variables";
-@import "/scss/style.scss";
+@import "../../scss/base/_variables";
+@import "../../scss/base/_headerfooter";
+
 
 
 
@@ -19,7 +19,6 @@ $fuentes:
 'Lily Script One', cursive
 'Nunito', sans-serif
 'Oooh Baby', cursive
-'Yuji Hentaigana Akari', cursive
-;
+'Yuji Hentaigana Akari', cursive;
 
 

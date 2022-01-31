@@ -1,7 +1,8 @@
 /*anidamiento*/
-@import "../base/variables";
+
+
 header{
-    background-color: $bg-color;
+    background-color: #ab748b;
     .logo{
         display: flex;  
     }
@@ -22,11 +23,13 @@ header{
     }
 /*media query header*/
 @media screen and (min-width:980px) {
+body{
     background-color:#ab748b;}
+} 
 
 @media only screen and (max-width:768px){
         body{
-            background-color: var(--color-sec);
+            background-color: #ab748b;
         }
 
 }

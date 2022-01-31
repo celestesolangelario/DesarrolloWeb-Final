@@ -1,6 +1,7 @@
 /* importar*/
 /*anidamiento*/
-/*variables*/
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
 header {
   background-color: #ab748b;
   /*media query header*/
@@ -22,16 +23,25 @@ header nav ul li {
   list-style-type: circle;
 }
 @media screen and (min-width: 980px) {
-  header {
+  header body {
     background-color: #ab748b;
   }
 }
 @media only screen and (max-width: 768px) {
   header body {
-    background-color: var(--color-sec);
+    background-color: #ab748b;
   }
 }
 
 /*variables*/
+/*listas*/
+/* fuentes de google */
+/* fuentes
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Imperial Script', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Oooh Baby', cursive;
+    font-family: 'Yuji Hentaigana Akari', cursive; */
 
 /*# sourceMappingURL=style.css.map */

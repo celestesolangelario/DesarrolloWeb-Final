@@ -1,47 +1,23 @@
-/* importar*/
-/*anidamiento*/
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
-header {
-  background-color: #ab748b;
-  /*media query header*/
-}
-header .logo {
-  display: flex;
-}
-header .logo {
-  background-color: #ab748b;
-  justify-content: center;
-  padding-top: 10rem;
-  padding-bottom: 10rem;
-}
-header nav {
-  background-color: #ab748b;
-  padding: 20px;
-}
-header nav ul li {
-  list-style-type: circle;
-}
-@media screen and (min-width: 980px) {
-  header body {
-    background-color: #ab748b;
-  }
-}
-@media only screen and (max-width: 768px) {
-  header body {
-    background-color: #ab748b;
-  }
-}
+/* Error: This file is already being loaded.
+ *   ,--> scss\base\_listas.scss
+ * 2 | @import "../base/header_footer";
+ *   |         ^^^^^^^^^^^^^^^^^^^^^^^ new load
+ *   '
+ *   ,--> scss\style.scss
+ * 2 | @import "../scss/base/header_footer";
+ *   |         ============================ original load
+ *   '
+ *   scss\base\_listas.scss 2:9         @import
+ *   scss\base\_header_footer.scss 2:9  @import
+ *   scss\style.scss 2:9                root stylesheet */
 
-/*variables*/
-/*listas*/
-/* fuentes de google */
-/* fuentes
-    font-family: 'Dancing Script', cursive;
-    font-family: 'Imperial Script', cursive;
-    font-family: 'Lily Script One', cursive;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Oooh Baby', cursive;
-    font-family: 'Yuji Hentaigana Akari', cursive; */
-
-/*# sourceMappingURL=style.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: 'Error: This file is already being loaded.\a   \250c \2500 \2500 > scss\\base\\_listas.scss\a 2 \2502  @import "../base/header_footer";\d\a   \2502          ^^^^^^^^^^^^^^^^^^^^^^^ new load\a   \2575 \a   \250c \2500 \2500 > scss\\style.scss\a 2 \2502  @import "../scss/base/header_footer";\d\a   \2502          \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501 \2501  original load\a   \2575 \a   scss\\base\\_listas.scss 2:9         @import\a   scss\\base\\_header_footer.scss 2:9  @import\a   scss\\style.scss 2:9                root stylesheet';
+}

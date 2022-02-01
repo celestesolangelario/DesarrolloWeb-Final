@@ -1,15 +1,6 @@
 /*anidamiento*/
-@import "../../scss/base/_variables";
-@import "../../scss/base/_listas";
-
-
-
-
-
-
 header{
-    background-color: #ab748b;
-
+    background-color: nth($color,2);
     .logo{
         display: flex;  
     }
@@ -23,7 +14,7 @@ header{
         background-color: #ab748b;
         padding: 20px;
         ul{
-            li .animaciones{
+            li.animaciones{
                 list-style-type: circle;
             }
         }
@@ -44,7 +35,8 @@ body{
 footer{
     h1{
         color: #ab748b;
-        font-family: $fuentes1;
+        font-family: nth( $fuentes,1);
         
     }
+
 }

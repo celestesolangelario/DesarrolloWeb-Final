@@ -2,17 +2,15 @@
 /*anidamiento*/
 header {
   /*media query header*/
-  background-color: #ab748b;
-  /*media query header*/
 }
-@media screen and (min-width: 425px) {
+@media screen and (max-width: 968px) {
   header body {
-    background-color: none;
+    background-color: var(--color-sec);
   }
 }
-@media only screen and (max-width: 2560px) {
+@media only screen and (max-width: 768px) {
   header body {
-    background-color: none;
+    background-color: var(--color-sec);
   }
 }
 header .logo {

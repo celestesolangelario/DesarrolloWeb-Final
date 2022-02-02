@@ -2,6 +2,7 @@ h2{
     margin: auto;
     text-align: center;
     background-color: nth($color,3);
+    color:nth($color,6);
 }
 
 .FONDO-00{
@@ -18,7 +19,8 @@ h2{
 .col p{
 background-color: nth($color,4);
 backdrop-filter: blur (20px);
-margin-top: 30%;
+margin-top: 20%;
+
 color: nth($color,6);
 font-size: large;
 font-family: nth($fuentes,4);

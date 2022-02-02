@@ -2,23 +2,21 @@
 
 $ancho:100%;
 $alto:100%;
-$separata:20%;
+$separata:1%;
+$marg:5%;
 
 
-.productos-00 {
-    .img-t{
-    width: $ancho;
-    height: $alto;
-    padding-top: $separata;
-    padding-bottom: $separata;
-    
+
+
     .img00{
-    width: $ancho * 2;
-    height: $alto * 3;
-    padding-top: $separata *2 ;
-    padding-bottom: $separata *2;
+    width: $ancho *2;
+    height: $alto *3;
+    padding-top: $separata *1;
+    padding-bottom: $separata *1;
+    margin-left: $marg *2;
     }
 
 
-}
-}
+
+
+

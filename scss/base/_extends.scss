@@ -2,7 +2,14 @@
     display: flex;
     justify-content: center;
 }
-.header .logo nav .f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp .linke{
+.header nav.linke{
+    @extend %flex;
+}
+
+.logo{
+    @extend %flex;
+}
+.f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp{
     @extend %flex;
 }
 

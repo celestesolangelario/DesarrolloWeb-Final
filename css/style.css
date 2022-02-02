@@ -58,6 +58,7 @@ footer {
 footer .foo {
   color: #d0a690;
   margin-left: 1rem;
+  width: 100%;
 }
 footer .foo .mapa {
   color: #d0a690;

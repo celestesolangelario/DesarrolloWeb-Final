@@ -68,6 +68,16 @@ header nav ul li ::after {
 footer {
   background-color: rgba(66, 63, 63, 0.315);
 }
+@media screen and (max-width: 968px) {
+  footer body {
+    background-color: var(--color-sec);
+  }
+}
+@media only screen and (max-width: 768px) {
+  footer body {
+    background-color: var(--color-sec);
+  }
+}
 footer .foo {
   color: #d0a690;
   margin-left: 1rem;

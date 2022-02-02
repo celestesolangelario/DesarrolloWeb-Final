@@ -5,38 +5,40 @@ header{
         display: flex;  
     }
     .logo{
-        background-color: #ab748b;
+        background-color: nth($color,2);
         justify-content: center;
         padding-top: 10rem;
         padding-bottom: 10rem;
     }
     nav{
-        background-color: #ab748b;
-        padding: 20px;
+        background-color: nth($color,2);
         ul{
             li.animaciones{
-                list-style-type: circle;
+                padding-right: 0.3rem;
+                padding-left: 0.8rem;
+                list-style: none;
+                font-size: xx-large;
+                color: nth($color,6);    
             }
         }
     }
 /*media query header*/
 @media screen and (min-width:980px) {
 body{
-    background-color:#ab748b;}
+    background-color:none;}
 } 
 
 @media only screen and (max-width:768px){
         body{
-            background-color: #ab748b;}
+            background-color: none;}
 }
 
 }
 
 footer{
     h1{
-        color: #ab748b;
+        color: nth($color,2);
         font-family: nth( $fuentes,1);
-        
     }
-
+    background-color: nth($color,3);
 }

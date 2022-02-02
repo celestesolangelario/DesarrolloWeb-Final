@@ -15,25 +15,55 @@ header .logo {
 }
 header nav {
   background-color: #ab748b;
-  padding: 20px;
 }
 header nav ul li.animaciones {
-  list-style-type: circle;
+  padding-right: 0.3rem;
+  padding-left: 0.8rem;
+  list-style: none;
+  font-size: xx-large;
+  color: #276569;
 }
 @media screen and (min-width: 980px) {
   header body {
-    background-color: #ab748b;
+    background-color: none;
   }
 }
 @media only screen and (max-width: 768px) {
   header body {
-    background-color: #ab748b;
+    background-color: none;
   }
 }
 
+footer {
+  background-color: rgba(66, 63, 63, 0.315);
+}
 footer h1 {
   color: #ab748b;
   font-family: "Dancing Script";
+}
+
+h2 {
+  margin: auto;
+  text-align: center;
+  background-color: rgba(66, 63, 63, 0.315);
+}
+
+.FONDO-00 {
+  background-image: url(../../src/assets/img/fondo-nosotros.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 80vh;
+}
+
+.col p {
+  background-color: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur 20px;
+  margin-top: 30%;
+  color: #276569;
+  font-size: large;
+  font-family: cursive;
+  box-shadow: black;
 }
 
 /*# sourceMappingURL=style.css.map */

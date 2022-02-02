@@ -1,1 +1,26 @@
+h2{
+    margin: auto;
+    text-align: center;
+    background-color: nth($color,3);
+}
 
+.FONDO-00{
+    background-image: url(../../src/assets/img/fondo-nosotros.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 80vh;
+    
+
+}
+
+
+.col p{
+background-color: nth($color,4);
+backdrop-filter: blur (20px);
+margin-top: 30%;
+color: nth($color,6);
+font-size: large;
+font-family: nth($fuentes,4);
+box-shadow: nth($color,7);
+}

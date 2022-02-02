@@ -85,6 +85,61 @@ footer .foo .linke {
   padding-top: 20rem;
 }
 
+header {
+  background-color: #ab748b;
+  /*media query header*/
+}
+header .logo {
+  display: flex;
+}
+header .logo {
+  background-color: #ab748b;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+header nav {
+  background-color: #ab748b;
+  display: flex;
+}
+header nav ul li {
+  padding-right: 3rem;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  padding-bottom: 8rem;
+  list-style: none;
+  font-family: nth "Dancing Script", cursive, "Imperial Script", cursive, "Lily Script One", cursive, "Nunito", sans-serif, "Oooh Baby", cursive, "Yuji Hentaigana Akari", cursive, 4;
+  font-size: xx-large;
+  text-align: center;
+}
+header nav ul li ::before {
+  content: "";
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 10rem;
+  height: 10rem;
+  padding-left: 11rem;
+  border-radius: 20%;
+  z-index: 0;
+  position: absolute;
+  transition: all 0.15s;
+}
+header nav ul li :hover::before {
+  box-shadow: -10px 5px 10px #d0a690;
+}
+header nav ul li ::after {
+  box-sizing: border-box;
+}
+@media screen and (min-width: 980px) {
+  header body {
+    background-color: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  header body {
+    background-color: none;
+  }
+}
+
 h2 {
   margin: auto;
   text-align: center;
@@ -108,6 +163,47 @@ h2 {
   font-size: large;
   font-family: cursive;
   box-shadow: #5a9397b4;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo {
+  background-color: #ab748b;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+footer {
+  background-color: rgba(66, 63, 63, 0.315);
+}
+footer .foo {
+  color: #d0a690;
+  margin-left: 1rem;
+}
+footer .foo .mapa {
+  color: #d0a690;
+  justify-content: left;
+  text-align: left;
+  margin-left: 1rem;
+}
+footer .foo .ig {
+  justify-content: right;
+  text-align: right;
+  margin-right: -70rem;
+}
+footer .foo .face {
+  justify-content: right;
+  text-align: right;
+  margin-right: -70rem;
+  padding-top: 1rem;
+}
+footer .foo .linke {
+  justify-content: center;
+  margin-left: 75rem;
+  padding-top: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */

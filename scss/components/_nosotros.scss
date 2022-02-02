@@ -1,3 +1,62 @@
+header{
+    background-color: nth($color,2);
+    
+    .logo{
+        display: flex;  
+        
+    }
+    .logo{
+        background-color: nth($color,2);
+        justify-content: center;
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+        
+    }
+    nav {
+        background-color: nth($color,2);
+        display: flex;
+        ul{
+            li{
+                padding-right: 3rem;
+                padding-left: 3rem;
+                padding-top: 3rem;
+                padding-bottom: 8rem;
+                list-style: none;
+                font-family: nth ($fuentes,4);
+                font-size: xx-large;
+                text-align: center;
+                ::before{
+                    content: "";
+                    background-color: nth($color,4);
+                    width: 10rem;
+                    height: 10rem;
+                    padding-left: 11rem;
+                    border-radius: 20%;
+                    z-index:0;
+                    position: absolute;
+                    transition:all .15s;
+                }
+                :hover::before{
+                    box-shadow: -10px 5px 10px nth($color,5);
+                }    
+                ::after{
+                    box-sizing: border-box;
+                }
+        }
+            }
+}
+
+/*media query header*/
+@media screen and (min-width:980px) {
+body{
+    background-color:none;}
+} 
+
+@media only screen and (max-width:768px){
+        body{
+            background-color: none;}
+}
+}
 h2{
     margin: auto;
     text-align: center;
@@ -26,3 +85,53 @@ font-size: large;
 font-family: nth($fuentes,4);
 box-shadow: nth($color,7);
 }
+
+.logo{
+    display: flex;  
+    
+}
+.logo{
+    background-color: nth($color,2);
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+
+
+footer{ 
+    background-color: nth($color,3);
+
+    .foo{
+        color: nth($color,5);    
+        margin-left: 1rem; 
+        .mapa{
+            color: nth($color,5);    
+            justify-content: left;
+            text-align: left; 
+            margin-left: 1rem; 
+        }
+        .ig {
+            justify-content:right;
+            text-align:right;
+            margin-right: -70rem;
+
+        } 
+        .face{
+            justify-content:right;
+            text-align:right;
+            margin-right: -70rem;
+            padding-top: 1rem;
+        }
+        .linke{
+            justify-content:center;
+            margin-left: 75rem;
+            padding-top: 20rem;
+
+        }
+    }
+
+}
+
+    

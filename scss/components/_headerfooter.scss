@@ -4,12 +4,14 @@
     
     .logo{
         display: flex;  
+        
     }
     .logo{
         background-color: nth($color,2);
         justify-content: center;
         padding-top: 4rem;
         padding-bottom: 4rem;
+        
     }
     nav {
         background-color: nth($color,2);
@@ -90,6 +92,7 @@ footer{
 
         }
     }
+
 }
 
 

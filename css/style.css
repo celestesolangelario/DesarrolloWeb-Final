@@ -1,8 +1,19 @@
 /* importar*/
 /*anidamiento*/
 header {
+  /*media query header*/
   background-color: #ab748b;
   /*media query header*/
+}
+@media screen and (min-width: 425px) {
+  header body {
+    background-color: none;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  header body {
+    background-color: none;
+  }
 }
 header .logo {
   background-color: #ab748b;
@@ -39,14 +50,14 @@ header nav ul li :hover::before {
 header nav ul li ::after {
   box-sizing: border-box;
 }
-@media screen and (min-width: 980px) {
+@media screen and (min-width: 375px) {
   header body {
-    background-color: none;
+    background-color: #ab748b;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 2560px) {
   header body {
-    background-color: none;
+    background-color: #ab748b;
   }
 }
 

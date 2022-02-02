@@ -1,5 +1,16 @@
 /*anidamiento*/
+
+    
+
     header{
+        /*media query header*/
+@media screen and (min-width:425px){
+    body{background-color:none;}
+    } 
+    
+    @media only screen and (max-width:2560px){
+            body{background-color: none;}
+    }
     background-color: nth($color,2);
     
 
@@ -43,14 +54,14 @@
 }
 
 /*media query header*/
-@media screen and (min-width:980px) {
+@media screen and (min-width:375px) {
 body{
-    background-color:none;}
+    background-color:nth($color,2 );}
 } 
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:2560px){
         body{
-            background-color: none;}
+            background-color: nth($color,2 );}
 }
 }
 
@@ -93,6 +104,7 @@ footer{
 
         }
     }
+
 
 }
 

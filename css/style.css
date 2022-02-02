@@ -55,6 +55,17 @@ header nav ul li ::after {
   }
 }
 
+.logo {
+  display: flex;
+}
+
+.logo {
+  background-color: #ab748b;
+  justify-content: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 footer {
   background-color: rgba(66, 63, 63, 0.315);
 }
@@ -85,59 +96,112 @@ footer .foo .linke {
   padding-top: 20rem;
 }
 
-header {
-  background-color: #ab748b;
-  /*media query header*/
+.f-comp {
+  background-image: url(../../src/assets/img/fondo.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 65vh;
 }
-header .logo {
+.f-comp .carrito {
   display: flex;
 }
-header .logo {
-  background-color: #ab748b;
+.f-comp .carrito {
   justify-content: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
+  padding: 2rem;
 }
-header nav {
-  background-color: #ab748b;
+.f-comp .boton {
   display: flex;
 }
-header nav ul li {
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 8rem;
-  list-style: none;
-  font-family: nth "Dancing Script", cursive, "Imperial Script", cursive, "Lily Script One", cursive, "Nunito", sans-serif, "Oooh Baby", cursive, "Yuji Hentaigana Akari", cursive, 4;
+.f-comp .boton {
+  justify-content: center;
+  border-radius: 30%;
+  padding-top: 1rem;
+}
+.f-comp .boton-01 {
+  background-color: #ab748b;
+  font-size: cursive;
   font-size: xx-large;
-  text-align: center;
 }
-header nav ul li ::before {
-  content: "";
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 10rem;
-  height: 10rem;
-  padding-left: 11rem;
-  border-radius: 20%;
-  z-index: 0;
-  position: absolute;
-  transition: all 0.15s;
+.f-comp .pagos-00 {
+  display: inline-block;
 }
-header nav ul li :hover::before {
-  box-shadow: -10px 5px 10px #d0a690;
+.f-comp .pagos-00 .mp {
+  padding-top: 1rem;
+  font-family: "Dancing Script";
+  color: #276569;
+  display: flex;
+  font-size: xx-large;
+  background-color: rgba(66, 63, 63, 0.315);
+  backdrop-filter: blur 3px;
 }
-header nav ul li ::after {
-  box-sizing: border-box;
+
+.nombre {
+  display: flex;
 }
-@media screen and (min-width: 980px) {
-  header body {
-    background-color: none;
-  }
+
+.nombre {
+  padding-top: 1rem;
+  justify-content: center;
 }
-@media only screen and (max-width: 768px) {
-  header body {
-    background-color: none;
-  }
+
+.nombre-01 {
+  display: flex;
+}
+
+.nombre-01 {
+  justify-content: center;
+  padding-top: 1rem;
+  font-size: medium;
+  font-family: "Dancing Script";
+  color: #276569;
+}
+
+.boton-02 {
+  display: flex;
+}
+
+.boton-02 {
+  justify-content: center;
+  border-radius: 30%;
+  padding-top: 1rem;
+}
+
+.boton-03 {
+  background-color: #ab748b;
+  font-size: cursive;
+  font-size: xx-large;
+}
+
+.c-m0 {
+  background-image: url(../../src/assets/img/fondo-productos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  height: 100vh;
+  padding: 10rem;
+}
+.c-m0 .con-01 {
+  color: #ab748b;
+}
+.c-m0 .envia-mail .wp {
+  font-size: xx-large;
+  font-family: "Dancing Script";
+  color: #276569;
+}
+.c-m0 .mail {
+  display: flex;
+  font-size: xx-large;
+  background-color: rgba(66, 63, 63, 0.315);
+  backdrop-filter: blur 3px;
+  color: #d0a690;
+}
+.c-m0 .whp {
+  display: flex;
+  font-size: xx-large;
+  background-color: rgba(66, 63, 63, 0.315);
+  backdrop-filter: blur 3px;
+  color: #d0a690;
 }
 
 h2 {
@@ -163,47 +227,6 @@ h2 {
   font-size: large;
   font-family: cursive;
   box-shadow: #5a9397b4;
-}
-
-.logo {
-  display: flex;
-}
-
-.logo {
-  background-color: #ab748b;
-  justify-content: center;
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
-footer {
-  background-color: rgba(66, 63, 63, 0.315);
-}
-footer .foo {
-  color: #d0a690;
-  margin-left: 1rem;
-}
-footer .foo .mapa {
-  color: #d0a690;
-  justify-content: left;
-  text-align: left;
-  margin-left: 1rem;
-}
-footer .foo .ig {
-  justify-content: right;
-  text-align: right;
-  margin-right: -70rem;
-}
-footer .foo .face {
-  justify-content: right;
-  text-align: right;
-  margin-right: -70rem;
-  padding-top: 1rem;
-}
-footer .foo .linke {
-  justify-content: center;
-  margin-left: 75rem;
-  padding-top: 20rem;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,113 @@
+.f-comp{
+    background-image: url(../../src/assets/img/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 65vh;
+.carrito{
+    display: flex;
+}
+.carrito{
+    justify-content: center;
+    padding: 2rem;
+}
+.boton{
+    display: flex;
+}
+.boton{
+    justify-content: center;
+    border-radius: 30%;
+    padding-top: 1rem;
+    
+
+}
+.boton-01{
+    background-color: nth($color,2);
+    font-size: nth($fuentes,2);
+    font-size: xx-large;
+}
+.pagos-00{display: inline-block;}
+.pagos-00 .mp{
+    padding-top: 1rem;
+    font-family: nth($fuentes,1);
+    color: nth($color,6);
+    display: flex;
+    font-size: xx-large;
+    background-color: nth($color,3);
+    backdrop-filter: blur (3px);
+    
+}
+}
+
+.nombre{display: flex;}
+.nombre{
+    padding-top: 1rem;
+    justify-content: center;
+
+}
+.nombre-01{display: flex;}
+.nombre-01{
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: medium;
+    font-family: nth($fuentes,1);
+    color: nth($color,6);
+}
+.boton-02{
+    display: flex;
+}
+.boton-02{
+    justify-content: center;
+    border-radius: 30%;
+    padding-top: 1rem;
+    
+
+}
+.boton-03{
+    background-color: nth($color,2);
+    font-size: nth($fuentes,2);
+    font-size: xx-large;
+}
+.c-m0{ 
+
+    .con-01{
+        color: nth($color,2);
+    }
+    
+    background-image: url(../../src/assets/img/fondo-productos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+    padding: 10rem;
+
+.envia-mail .wp{
+    
+    font-size: xx-large;
+    font-family: nth($fuentes,1);
+    color: nth($color,6);
+    
+    
+}
+
+
+.mail{
+    display: flex;
+    font-size: xx-large;
+    background-color: nth($color,3 );
+    backdrop-filter: blur (3px);
+    color: nth($color,5);
+}
+
+.whp{
+    display: flex;
+    font-size: xx-large;
+    background-color: nth($color,3);
+    backdrop-filter: blur (3px);
+    color: nth($color,5);
+
+}
+
+
+
+}

@@ -5,17 +5,12 @@ header {
   /*media query header*/
 }
 header .logo {
-  display: flex;
-}
-header .logo {
   background-color: #ab748b;
-  justify-content: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 header nav {
   background-color: #ab748b;
-  display: flex;
 }
 header nav ul li {
   padding-right: 3rem;
@@ -56,12 +51,7 @@ header nav ul li ::after {
 }
 
 .logo {
-  display: flex;
-}
-
-.logo {
   background-color: #ab748b;
-  justify-content: center;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -91,7 +81,6 @@ footer .foo .face {
   padding-top: 1rem;
 }
 footer .foo .linke {
-  justify-content: center;
   margin-left: 75rem;
   padding-top: 20rem;
 }
@@ -227,6 +216,25 @@ h2 {
   font-size: large;
   font-family: cursive;
   box-shadow: #5a9397b4;
+}
+
+.header .logo nav .f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp .linke {
+  display: flex;
+  justify-content: center;
+}
+
+/*operadores*/
+.productos-00 .img-t {
+  width: 100%;
+  height: 100%;
+  padding-top: 20%;
+  padding-bottom: 20%;
+}
+.productos-00 .img-t .img00 {
+  width: 200%;
+  height: 300%;
+  padding-top: 40%;
+  padding-bottom: 40%;
 }
 
 /*# sourceMappingURL=style.css.map */

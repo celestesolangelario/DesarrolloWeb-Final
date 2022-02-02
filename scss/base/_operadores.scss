@@ -1,0 +1,24 @@
+/*operadores*/
+
+$ancho:100%;
+$alto:100%;
+$separata:20%;
+
+
+.productos-00 {
+    .img-t{
+    width: $ancho;
+    height: $alto;
+    padding-top: $separata;
+    padding-bottom: $separata;
+    
+    .img00{
+    width: $ancho * 2;
+    height: $alto * 3;
+    padding-top: $separata *2 ;
+    padding-bottom: $separata *2;
+    }
+
+
+}
+}

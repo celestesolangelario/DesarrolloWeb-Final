@@ -4,11 +4,11 @@
 
     header{
         @media screen and ( max-width:968px){
-            body{background-color: var(--color-sec)}
+            body{background-color:nth($color,1)}
         }
         @media only screen and (max-width:768px){
             body{
-                background-color: var(--color-sec);
+                background-color: nth($color,1 );
             }
         }
 
@@ -51,16 +51,7 @@
             }
 }
 
-/*media query header*/
-@media screen and (min-width:375px) {
-body{
-    background-color:nth($color,2 );}
-} 
 
-@media only screen and (max-width:2560px){
-        body{
-            background-color: nth($color,2 );}
-}
 }
 
 .logo{
@@ -72,14 +63,7 @@ body{
 
 
 footer{ 
-    @media screen and ( max-width:968px){
-        body{background-color: var(--color-sec)}
-    }
-    @media only screen and (max-width:768px){
-        body{
-            background-color: var(--color-sec);
-        }
-    }
+
 
     background-color: nth($color,3);
 

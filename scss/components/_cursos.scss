@@ -1,0 +1,66 @@
+.aprende-cn{
+    margin: auto;
+    text-align: center;
+    background-color: nth($color,3);
+    color:nth($color,6);
+}
+.cursos{
+    list-style-type:none;
+    
+}
+
+.cursos .cursos-00{
+    margin: auto;
+    text-align: center;
+
+}
+.nivel-curso{
+    padding: auto;
+    align-items: center;
+    background-color: nth($color,5);
+    color: nth($color,6);
+    font-size:xx-large;
+    font-family: nth($fuentes,2);
+    list-style-type: none;
+    margin-left: -2rem;
+}
+
+
+.curso-descrip{
+    font-size:xx-large;
+    align-items: center;
+    font-family: nth($fuentes,4);
+    color: nth($color,2);
+}
+.dias-cursos {
+    color: nth($color,6);
+    font-size:xx-large;
+    align-items: center;
+    font-family: nth($fuentes,4);
+}
+.cursos-completo{
+    color: nth($color,6);
+    font-size:xx-large;
+    align-items: center;
+    font-family: nth($fuentes,4);
+
+}
+.boton{
+    display: flex;
+}
+.boton{
+    justify-content: center;
+    border-radius: 30%;
+    padding-bottom: 1rem;
+
+}
+
+.boton .boton-00{
+    padding-top: 1rem;
+    background-color: nth($color,2);
+    font-size: nth($fuentes,2);
+    font-size: xx-large;
+}
+
+
+

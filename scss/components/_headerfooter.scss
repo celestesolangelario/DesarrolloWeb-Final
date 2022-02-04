@@ -1,16 +1,12 @@
 /*anidamiento*/
+header{
+.header{ width: 100%;
 
-    
-
-    header{
-        @media screen and ( max-width:968px){
-            body{background-color:nth($color,1)}
-        }
-        @media only screen and (max-width:768px){
-            body{
-                background-color: nth($color,1);
-            }
-        }
+    @include mqs(sm1, sm2){
+        max-height: 3.5rem;
+        width: 100%;
+    }
+}
 
     .logo{
         background-color: nth($color,2);
@@ -49,7 +45,9 @@
                 }
         }
             }
-}
+    }
+
+
 
 
 }
@@ -97,6 +95,12 @@ footer{
         }
     }
 
+    width: 100%;
+
+    @include mqs(sm1, sm2) {
+        max-height: 3.5rem;
+        width: 100%;
+    }
 
 }
 

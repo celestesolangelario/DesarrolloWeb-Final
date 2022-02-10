@@ -1,8 +1,3 @@
-@font-face {
-  font-family: ;
-  src: url();
-  font-display: swap;
-}
 /* importar*/
 .f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp, .logo, .header nav.linke {
   display: flex;
@@ -10,6 +5,11 @@
 }
 
 /*operadores*/
+.index {
+  width: 100%;
+  height: 100%;
+}
+
 .img00 {
   width: 200%;
   height: 300%;
@@ -28,6 +28,13 @@
 
 /*MEDIAS QUERYS*/
 /*anidamiento*/
+.index {
+  background-image: url(../../src/assets/img/fondoindex.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 header .header {
   width: 100%;
 }
@@ -38,12 +45,8 @@ header .header {
   }
 }
 header .logo {
-  background-color: #ab748b;
   padding-top: 4rem;
   padding-bottom: 4rem;
-}
-header nav {
-  background-color: #ab748b;
 }
 header nav ul li {
   padding-right: 3rem;
@@ -54,6 +57,7 @@ header nav ul li {
   font-family: nth "Dancing Script", cursive, "Imperial Script", cursive, "Lily Script One", cursive, "Nunito", sans-serif, "Oooh Baby", cursive, "Yuji Hentaigana Akari", cursive, 4;
   font-size: xx-large;
   text-align: center;
+  color: #276569;
 }
 header nav ul li ::before {
   content: "";
@@ -74,7 +78,6 @@ header nav ul li ::after {
 }
 
 .logo {
-  background-color: #ab748b;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
@@ -84,7 +87,7 @@ footer {
   width: 100%;
 }
 footer .foo {
-  color: #d0a690;
+  color: #276569;
   margin-left: 1rem;
   width: 100%;
 }
@@ -97,16 +100,16 @@ footer .foo .mapa {
 footer .foo .ig {
   justify-content: right;
   text-align: right;
-  margin-right: -70rem;
+  margin-right: 10px;
 }
 footer .foo .face {
   justify-content: right;
   text-align: right;
-  margin-right: -70rem;
+  margin-right: 10px;
   padding-top: 1rem;
 }
 footer .foo .linke {
-  margin-left: 75rem;
+  margin-left: 0rem;
   padding-top: 20rem;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {

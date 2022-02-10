@@ -1,4 +1,12 @@
 /*anidamiento*/
+.index{
+background-image: url(../../src/assets/img/fondoindex.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+
+
+}
 header{
 .header{ width: 100%;
 
@@ -9,13 +17,13 @@ header{
 }
 
     .logo{
-        background-color: nth($color,2);
+        
         padding-top: 4rem;
         padding-bottom: 4rem;
         
     }
     nav {
-        background-color: nth($color,2);
+        
         ul{
             li{
                 padding-right: 3rem;
@@ -26,6 +34,7 @@ header{
                 font-family: nth ($fuentes,4);
                 font-size: xx-large;
                 text-align: center;
+                color: nth($color,6);
                 ::before{
                     content: "";
                     background-color: nth($color,4);
@@ -53,7 +62,7 @@ header{
 }
 
 .logo{
-    background-color: nth($color,2);
+    
     padding-top: 4rem;
     padding-bottom: 4rem;
     
@@ -66,7 +75,7 @@ footer{
     background-color: nth($color,3);
 
     .foo{
-        color: nth($color,5);    
+        color: nth($color,6);    
         margin-left: 1rem; 
         width: 100%;
         .mapa{
@@ -78,18 +87,18 @@ footer{
         .ig {
             justify-content:right;
             text-align:right;
-            margin-right: -70rem;
+            margin-right: 10px;
 
         } 
         .face{
             justify-content:right;
             text-align:right;
-            margin-right: -70rem;
+            margin-right:10px;
             padding-top: 1rem;
         }
         .linke{
             
-            margin-left: 75rem;
+            margin-left: 0rem;
             padding-top: 20rem;
 
         }

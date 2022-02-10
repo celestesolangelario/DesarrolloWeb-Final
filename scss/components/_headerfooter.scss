@@ -75,26 +75,24 @@ footer{
     background-color: nth($color,3);
 
     .foo{
-        color: nth($color,6);    
+        font-family: nth($fuentes,4 );
+        color: nth($color,9);    
         margin-left: 1rem; 
+        padding-top: 5rem;
         width: 100%;
         .mapa{
-            color: nth($color,5);    
-            justify-content: left;
-            text-align: left; 
-            margin-left: 1rem; 
-        }
-        .ig {
-            justify-content:right;
-            text-align:right;
-            margin-right: 10px;
-
-        } 
-        .face{
-            justify-content:right;
-            text-align:right;
-            margin-right:10px;
-            padding-top: 1rem;
+            color: nth($color,5); 
+            padding-top: 5rem;   
+            
+            .ig-face {
+                a:last-of-type {
+                    position: absolute;
+                    bottom:-50%;
+                        svg{
+                            fill:#8783b4;
+                        }
+                }
+            }
         }
         .linke{
             

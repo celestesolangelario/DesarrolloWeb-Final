@@ -87,26 +87,22 @@ footer {
   width: 100%;
 }
 footer .foo {
-  color: #276569;
+  font-family: cursive;
+  color: white;
   margin-left: 1rem;
+  padding-top: 5rem;
   width: 100%;
 }
 footer .foo .mapa {
   color: #d0a690;
-  justify-content: left;
-  text-align: left;
-  margin-left: 1rem;
+  padding-top: 5rem;
 }
-footer .foo .ig {
-  justify-content: right;
-  text-align: right;
-  margin-right: 10px;
+footer .foo .mapa .ig-face a:last-of-type {
+  position: absolute;
+  bottom: -50%;
 }
-footer .foo .face {
-  justify-content: right;
-  text-align: right;
-  margin-right: 10px;
-  padding-top: 1rem;
+footer .foo .mapa .ig-face a:last-of-type svg {
+  fill: #8783b4;
 }
 footer .foo .linke {
   margin-left: 0rem;

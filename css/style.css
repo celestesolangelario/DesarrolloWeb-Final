@@ -97,14 +97,16 @@ footer .foo .mapa {
   color: #d0a690;
   padding-top: 5rem;
 }
-footer .foo .mapa .ig-face a:last-of-type {
-  position: absolute;
-  bottom: -50%;
+footer .foo .mapa .ig-face {
+  position: relative;
 }
 footer .foo .mapa .ig-face a:last-of-type svg {
-  fill: #8783b4;
+  fill: #97487d;
 }
-footer .foo .linke {
+footer .foo .mapa .ig-face svg {
+  fill: white;
+}
+footer .linke {
   margin-left: 0rem;
   padding-top: 20rem;
 }

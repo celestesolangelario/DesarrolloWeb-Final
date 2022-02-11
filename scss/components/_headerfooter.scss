@@ -1,114 +1,109 @@
 /*anidamiento*/
-.index{
-background-image: url(../../src/assets/img/fondoindex.jpg);
-background-size: cover;
-background-repeat: no-repeat;
-background-attachment: fixed;
-
-
+.index {
+    background-image: url(../../src/assets/img/fondoindex.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
-header{
-.header{ width: 100%;
 
-    @include mqs(sm1, sm2){
-        max-height: 3.5rem;
+header {
+    .header {
         width: 100%;
-    }
-}
 
-    .logo{
-        
+        @include mqs(sm1, sm2) {
+            max-height: 3.5rem;
+            width: 100%;
+        }
+    }
+
+    .logo {
         padding-top: 4rem;
         padding-bottom: 4rem;
-        
     }
+
     nav {
-        
-        ul{
-            li{
+
+        ul {
+            li {
                 padding-right: 3rem;
                 padding-left: 3rem;
                 padding-top: 3rem;
                 padding-bottom: 8rem;
                 list-style: none;
-                font-family: nth ($fuentes,4);
+                font-family: nth ($fuentes, 4);
                 font-size: xx-large;
                 text-align: center;
-                color: nth($color,6);
-                ::before{
+                color: nth($color, 6);
+
+                ::before {
                     content: "";
-                    background-color: nth($color,4);
+                    background-color: nth($color, 4);
                     width: 10rem;
                     height: 10rem;
                     padding-left: 11rem;
                     border-radius: 20%;
-                    z-index:0;
+                    z-index: 0;
                     position: absolute;
-                    transition:all .15s;
+                    transition: all .15s;
                 }
-                :hover::before{
-                    box-shadow: -10px 5px 10px nth($color,5);
-                }    
-                ::after{
+
+                :hover::before {
+                    box-shadow: -10px 5px 10px nth($color, 5);
+                }
+
+                ::after {
                     box-sizing: border-box;
                 }
-        }
             }
+        }
     }
-
-
-
-
 }
 
-.logo{
-    
+.logo {
     padding-top: 4rem;
     padding-bottom: 4rem;
-    
 }
 
+footer {
+    background-color: nth($color, 3);
 
-footer{ 
-
-
-    background-color: nth($color,3);
-
-    .foo{
-        font-family: nth($fuentes,4 );
-        color: nth($color,9);    
-        margin-left: 1rem; 
+    .foo {
+        font-family: nth($fuentes, 4);
+        color: nth($color, 9);
+        margin-left: 1rem;
         padding-top: 5rem;
         width: 100%;
-        .mapa{
-            color: nth($color,5); 
-            padding-top: 5rem;   
-            
+
+        .mapa {
+            color: nth($color, 5);
+            padding-top: 5rem;
+
             .ig-face {
                 a:last-of-type {
-                    position: absolute;
-                    bottom:-50%;
-                        svg{
-                            fill:#8783b4;
-                        }
+                    svg {
+                        fill: #97487d;
+                    }
+                }
+
+                position: relative;
+
+                svg {
+                    fill: white;
                 }
             }
         }
-        .linke{
-            
-            margin-left: 0rem;
-            padding-top: 20rem;
-
-        }
     }
 
-    width: 100%;
+    .linke {
+        margin-left: 0rem;
+        padding-top: 20rem;
+    }
+
+
+    width:100%;
 
     @include mqs(sm1, sm2) {
         max-height: 3.5rem;
         width: 100%;
     }
-
 }
-
-

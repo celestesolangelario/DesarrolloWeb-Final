@@ -1,4 +1,7 @@
+@charset "UTF-8";
 /* importar*/
+/* fuentes de google */
+@import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
 .f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp, .logo, .header nav.linke {
   display: flex;
   justify-content: center;
@@ -6,21 +9,18 @@
 
 /*operadores*/
 .index {
-  width: 100%;
-  height: 100%;
+  width: 6rem;
+  height: 10rem;
 }
 
-.img00 {
-  width: 200%;
-  height: 300%;
-  padding-top: 1%;
-  padding-bottom: 1%;
-  margin-left: 10%;
+.img-00 {
+  width: 30rem;
+  height: 40rem;
 }
 
 .video-00 .video-01 .video-02 {
-  width: 200%;
-  height: 300%;
+  width: 12rem;
+  height: 30rem;
   padding-top: 4%;
   padding-bottom: 4%;
   margin-left: 10%;
@@ -48,33 +48,19 @@ header .logo {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
-header nav ul li {
+header ul li {
   padding-right: 3rem;
   padding-left: 3rem;
   padding-top: 3rem;
   padding-bottom: 8rem;
   list-style: none;
-  font-family: nth "Dancing Script", cursive, "Imperial Script", cursive, "Lily Script One", cursive, "Nunito", sans-serif, "Oooh Baby", cursive, "Yuji Hentaigana Akari", cursive, 4;
   font-size: xx-large;
   text-align: center;
-  color: #276569;
+  font-family: "Alegreya", serif;
 }
-header nav ul li ::before {
-  content: "";
-  background-color: rgba(255, 255, 255, 0.3);
-  width: 10rem;
-  height: 10rem;
-  padding-left: 11rem;
-  border-radius: 20%;
-  z-index: 0;
-  position: absolute;
-  transition: all 0.15s;
-}
-header nav ul li :hover::before {
-  box-shadow: -10px 5px 10px #d0a690;
-}
-header nav ul li ::after {
-  box-sizing: border-box;
+header ul li a {
+  color: #ab748b !important;
+  text-shadow: 0px 3px 3px rgba(9, 4, 4, 0.6);
 }
 
 .logo {
@@ -87,7 +73,7 @@ footer {
   width: 100%;
 }
 footer .foo {
-  font-family: cursive;
+  font-family: "Lily Script One", cursive;
   color: white;
   margin-left: 1rem;
   padding-top: 5rem;
@@ -141,7 +127,7 @@ footer .linke {
 }
 .f-comp .boton-01 {
   background-color: #ab748b;
-  font-size: cursive;
+  font-size: "Dancing Script", cursive;
   font-size: xx-large;
 }
 .f-comp .pagos-00 {
@@ -149,7 +135,7 @@ footer .linke {
 }
 .f-comp .pagos-00 .mp {
   padding-top: 1rem;
-  font-family: "Dancing Script";
+  font-family: "Alegreya", serif;
   color: white;
   display: flex;
   font-size: xx-large;
@@ -174,7 +160,7 @@ footer .linke {
   justify-content: center;
   padding-top: 1rem;
   font-size: medium;
-  font-family: "Dancing Script";
+  font-family: "Alegreya", serif;
   color: #276569;
 }
 
@@ -190,7 +176,7 @@ footer .linke {
 
 .boton-03 {
   background-color: #ab748b;
-  font-size: cursive;
+  font-size: "Dancing Script", cursive;
   font-size: xx-large;
 }
 
@@ -207,7 +193,7 @@ footer .linke {
 }
 .c-m0 .envia-mail .wp {
   font-size: xx-large;
-  font-family: "Dancing Script";
+  font-family: "Alegreya", serif;
   color: #276569;
 }
 .c-m0 .mail {
@@ -247,7 +233,7 @@ footer .linke {
   background-color: #d0a690;
   color: #276569;
   font-size: xx-large;
-  font-family: cursive;
+  font-family: "Dancing Script", cursive;
   list-style-type: none;
   margin-left: -2rem;
 }
@@ -255,7 +241,7 @@ footer .linke {
 .curso-descrip {
   font-size: xx-large;
   align-items: center;
-  font-family: cursive;
+  font-family: "Lily Script One", cursive;
   color: #ab748b;
 }
 
@@ -263,14 +249,14 @@ footer .linke {
   color: #276569;
   font-size: xx-large;
   align-items: center;
-  font-family: cursive;
+  font-family: "Lily Script One", cursive;
 }
 
 .cursos-completo {
   color: #276569;
   font-size: xx-large;
   align-items: center;
-  font-family: cursive;
+  font-family: "Lily Script One", cursive;
 }
 
 .boton {
@@ -286,33 +272,68 @@ footer .linke {
 .boton .boton-00 {
   padding-top: 1rem;
   background-color: #ab748b;
-  font-size: cursive;
+  font-size: "Dancing Script", cursive;
   font-size: xx-large;
 }
 
+.Nosotros {
+  background-image: url("../../src/assets/img/tapiz4.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
 h2 {
+  font-family: "Lily Script One", cursive;
   margin: auto;
   text-align: center;
-  background-color: rgba(66, 63, 63, 0.315);
-  color: #276569;
+  background-color: #b6a7a7c9;
+  color: white;
+  font-size: 100px;
 }
 
 .FONDO-00 {
-  background-image: url(../../src/assets/img/fondo-nosotros.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  height: 80vh;
+  background-color: #b6a7a7c9;
 }
 
 .col p {
-  background-color: rgba(255, 255, 255, 0.3);
   backdrop-filter: blur 20px;
   margin-top: 20%;
-  color: #276569;
-  font-size: large;
-  font-family: cursive;
+  color: white;
+  font-size: xx-large;
+  font-family: "Lily Script One", cursive;
   box-shadow: #5a9397b4;
+}
+
+.fondo-productos {
+  background-image: url("../../src/assets/img/otoñoDM.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #552e55ba;
+  background-blend-mode: screen;
+}
+
+.Productos-02 {
+  font-family: "Lily Script One", cursive;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(44, 20, 68, 0.28);
+  color: white;
+  font-size: 60px;
+}
+
+.card {
+  padding: 0.25rem;
+  background-color: rgba(255, 255, 255, 0.3);
+  border: 16px solid rgba(255, 255, 255, 0.3);
+  max-width: 100%;
+  height: auto;
+  color: #ab748b;
+}
+
+.h-card {
+  height: 60rem;
 }
 
 /*# sourceMappingURL=style.css.map */

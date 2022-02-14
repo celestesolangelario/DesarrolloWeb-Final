@@ -1,35 +1,28 @@
 /*operadores*/
 
-$ancho:100%;
-$alto:100%;
+$ancho: 6rem;
+$alto: 10rem;
 $separata:1%;
 $marg:5%;
 
 
-.index{
+
+.index {
     width: $ancho;
     height: $alto;
-    
+
 
 }
 
-    .img00{
+.img-00 {
+    width: $ancho*5;
+    height: $alto*4;
+}
+
+.video-00 .video-01 .video-02 {
     width: $ancho *2;
     height: $alto *3;
-    padding-top: $separata *1;
-    padding-bottom: $separata *1;
+    padding-top: $separata *4;
+    padding-bottom: $separata *4;
     margin-left: $marg *2;
-    }
-
-    .video-00 .video-01 .video-02{
-        width: $ancho *2;
-        height: $alto *3;
-        padding-top: $separata *4;
-        padding-bottom: $separata *4;
-        margin-left: $marg *2;
-    }
-    
-
-
-
-
+}

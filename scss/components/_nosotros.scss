@@ -1,29 +1,33 @@
+.Nosotros{
+    background-image: url("../../src/assets/img/tapiz4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+
+
 
 h2 {
+    font-family: nth($fuentes,4);
     margin: auto;
     text-align: center;
-    background-color: nth($color,3);
-    color:nth($color,6);
+    background-color: nth($color,10);
+    color:nth($color,9);
+    font-size: 100px;
 }
 
 .FONDO-00{
-    background-image: url(../../src/assets/img/fondo-nosotros.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    height: 80vh;
-    
-
+    background-color: nth($color,10);
 }
 
 
 .col p{
-background-color: nth($color,4);
+
 backdrop-filter: blur (20px);
 margin-top: 20%;
 
-color: nth($color,6);
-font-size: large;
+color: nth($color,9);
+font-size:xx-large;
 font-family: nth($fuentes,4);
 box-shadow: nth($color,7);
 }

@@ -1,1 +1,33 @@
+.fondo-productos{
+    background-image: url("../../src/assets/img/otoñoDM.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #552e55ba;
+    background-blend-mode: screen;
+}
 
+.Productos-02{
+    font-family: nth($fuentes,4);
+    margin: auto;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color:nth($color,9);
+    font-size: 60px;
+
+}
+
+.card{
+    padding: .25rem;
+    background-color: nth($color,4);
+    border: 16px solid nth($color,4);
+    max-width: 100%;
+    height: auto;
+    color: nth($color,2);
+
+
+}
+
+.h-card{
+    height: 60rem;
+}

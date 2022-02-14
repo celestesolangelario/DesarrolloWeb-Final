@@ -1,3 +1,9 @@
+ /* fuentes de google */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap');
+
+
+
+
 $color:
 rgba(80, 78, 78, 0.329),
 #ab748b,
@@ -7,16 +13,17 @@ rgba(255, 255, 255,0.3),
 #276569,
 #5a9397b4,
 black,
-white;
-
-
-
+white,
+#b6a7a7c9,
+rgba(182, 167, 167, 0.561);
 
 
 $fuentes:
-'Dancing Script', cursive,
-'Imperial Script', cursive,
-'Lily Script One', cursive,
-'Nunito', sans-serif,
-'Oooh Baby', cursive,
-'Yuji Hentaigana Akari', cursive;
+('Alegreya', serif),
+('Dancing Script', cursive),
+('Imperial Script', cursive),
+('Lily Script One', cursive),
+('Nunito', sans-serif),
+('Oooh Baby', cursive),
+('Work Sans', sans-serif),
+('Yuji Hentaigana Akari', cursive);

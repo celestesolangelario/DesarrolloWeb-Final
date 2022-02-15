@@ -1,9 +1,16 @@
-.f-comp{
-    background-image: url(../../src/assets/img/fondo.jpg);
-    background-repeat: no-repeat;
+.fondo-con-com{
+    background-image: url("../../src/assets/img/fondo-contactanos.jpg");
     background-size: cover;
-    position: relative;
-    height: 65vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+    background-blend-mode: hard-light;
+    background-color: #0f0b02;
+
+}
+
+.f-comp{
+    
+
 .carrito{
     display: flex;
 }
@@ -30,10 +37,10 @@
 .pagos-00 .mp{
     padding-top: 1rem;
     font-family: nth($fuentes,1);
-    color: nth($color,9);
+    color: nth($color,8);
     display: flex;
     font-size: xx-large;
-    background-color: nth($color,3);
+    background-color: nth($color,10);
     backdrop-filter: blur (3px);
     
 }
@@ -79,7 +86,7 @@
     background-size: cover;
     position: relative;
     height: 100vh;
-    padding: 10rem;
+    padding: 8rem;
 
 .envia-mail .wp{
     

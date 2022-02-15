@@ -7,6 +7,7 @@
   justify-content: center;
 }
 
+/*MEDIAS QUERYS*/
 /*operadores*/
 .index {
   width: 6rem;
@@ -14,8 +15,9 @@
 }
 
 .img-00 {
-  width: 30rem;
-  height: 40rem;
+  width: 100%;
+  height: auto;
+  margin: auto;
 }
 
 .video-00 .video-01 .video-02 {
@@ -64,7 +66,7 @@ header ul li a {
 }
 
 .logo {
-  padding-top: 4rem;
+  padding-top: 9rem;
   padding-bottom: 4rem;
 }
 
@@ -73,10 +75,11 @@ footer {
   width: 100%;
 }
 footer .foo {
+  display: flex;
   font-family: "Lily Script One", cursive;
   color: white;
-  margin-left: 1rem;
-  padding-top: 5rem;
+  margin-left: -3em;
+  padding-top: 1em;
   width: 100%;
 }
 footer .foo .mapa {
@@ -84,7 +87,8 @@ footer .foo .mapa {
   padding-top: 5rem;
 }
 footer .foo .mapa .ig-face {
-  position: relative;
+  justify-content: center;
+  align-items: center;
 }
 footer .foo .mapa .ig-face a:last-of-type svg {
   fill: #97487d;
@@ -93,8 +97,7 @@ footer .foo .mapa .ig-face svg {
   fill: white;
 }
 footer .linke {
-  margin-left: 0rem;
-  padding-top: 20rem;
+  padding-top: 1rem;
 }
 @media screen and (min-width: 0px) and (max-width: 320px) {
   footer {
@@ -103,13 +106,15 @@ footer .linke {
   }
 }
 
-.f-comp {
-  background-image: url(../../src/assets/img/fondo.jpg);
-  background-repeat: no-repeat;
+.fondo-con-com {
+  background-image: url("../../src/assets/img/fondo-contactanos.jpg");
   background-size: cover;
-  position: relative;
-  height: 65vh;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: hard-light;
+  background-color: #0f0b02;
 }
+
 .f-comp .carrito {
   display: flex;
 }
@@ -136,10 +141,10 @@ footer .linke {
 .f-comp .pagos-00 .mp {
   padding-top: 1rem;
   font-family: "Alegreya", serif;
-  color: white;
+  color: black;
   display: flex;
   font-size: xx-large;
-  background-color: rgba(66, 63, 63, 0.315);
+  background-color: #b6a7a7c9;
   backdrop-filter: blur 3px;
 }
 
@@ -186,7 +191,7 @@ footer .linke {
   background-size: cover;
   position: relative;
   height: 100vh;
-  padding: 10rem;
+  padding: 8rem;
 }
 .c-m0 .con-01 {
   color: #ab748b;
@@ -211,11 +216,22 @@ footer .linke {
   color: #d0a690;
 }
 
+.fondo-cursos {
+  background-image: url("../../src/assets/img/Fondocursos.JPG");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #181822d1;
+  background-blend-mode: hard-light;
+}
+
 .aprende-cn {
+  font-family: "Lily Script One", cursive;
   margin: auto;
   text-align: center;
-  background-color: rgba(66, 63, 63, 0.315);
-  color: #276569;
+  background-color: rgba(44, 20, 68, 0.73);
+  color: white;
+  font-size: 60px;
 }
 
 .cursos {
@@ -230,50 +246,52 @@ footer .linke {
 .nivel-curso {
   padding: auto;
   align-items: center;
-  background-color: #d0a690;
-  color: #276569;
+  background-color: rgba(44, 20, 68, 0.4);
+  color: white;
   font-size: xx-large;
-  font-family: "Dancing Script", cursive;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
   list-style-type: none;
   margin-left: -2rem;
 }
 
 .curso-descrip {
-  font-size: xx-large;
-  align-items: center;
-  font-family: "Lily Script One", cursive;
-  color: #ab748b;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(44, 20, 68, 0.4);
+  color: white;
+  font-size: 20px;
+  margin-left: -2rem;
 }
 
 .dias-cursos {
-  color: #276569;
-  font-size: xx-large;
-  align-items: center;
-  font-family: "Lily Script One", cursive;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(44, 20, 68, 0.73);
+  color: white;
+  font-size: 30px;
+  margin-left: -2rem;
 }
 
 .cursos-completo {
-  color: #276569;
-  font-size: xx-large;
-  align-items: center;
-  font-family: "Lily Script One", cursive;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+  margin: auto;
+  text-align: center;
+  background-color: rgba(44, 20, 68, 0.4);
+  color: white;
+  font-size: 30px;
+  margin-left: -2rem;
 }
 
-.boton {
-  display: flex;
-}
-
-.boton {
-  justify-content: center;
-  border-radius: 30%;
+.bot-color {
+  background-color: #674491;
+  color: white;
+  font-family: "Alegreya", serif;
   padding-bottom: 1rem;
-}
-
-.boton .boton-00 {
   padding-top: 1rem;
-  background-color: #ab748b;
-  font-size: "Dancing Script", cursive;
-  font-size: xx-large;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .Nosotros {
@@ -333,7 +351,23 @@ h2 {
 }
 
 .h-card {
-  height: 60rem;
+  height: auto;
+}
+.h-card .card-title {
+  font-family: "Oooh Baby", cursive;
+  color: #462222;
+  font-size: 40px;
+}
+.h-card .card-text {
+  font-family: "Oooh Baby", cursive !important;
+  color: #462222 !important;
+  font-size: 30px !important;
+  margin-top: 5% !important;
+}
+.h-card .bot-color {
+  background-color: #674491;
+  color: white;
+  font-family: "Alegreya", serif;
 }
 
 /*# sourceMappingURL=style.css.map */

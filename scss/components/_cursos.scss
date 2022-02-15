@@ -1,66 +1,85 @@
-.aprende-cn{
-    margin: auto;
-    text-align: center;
-    background-color: nth($color,3);
-    color:nth($color,6);
-}
-.cursos{
-    list-style-type:none;
-    
+.fondo-cursos {
+    background-image: url("../../src/assets/img/Fondocursos.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: nth($color, 16);
+    background-blend-mode: hard-light;
 }
 
-.cursos .cursos-00{
+
+
+.aprende-cn {
+    font-family: nth($fuentes, 4);
+    margin: auto;
+    text-align: center;
+    background-color: nth($color, 17);
+    color: nth($color, 9);
+    font-size: 60px;
+}
+
+.cursos {
+    list-style-type: none;
+
+}
+
+.cursos .cursos-00 {
     margin: auto;
     text-align: center;
 
 }
-.nivel-curso{
+
+.nivel-curso {
     padding: auto;
     align-items: center;
-    background-color: nth($color,5);
-    color: nth($color,6);
-    font-size:xx-large;
-    font-family: nth($fuentes,2);
+    background-color: nth($color, 18);
+    color: nth($color, 9);
+    font-size: xx-large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     list-style-type: none;
     margin-left: -2rem;
 }
 
 
-.curso-descrip{
-    font-size:xx-large;
-    align-items: center;
-    font-family: nth($fuentes,4);
-    color: nth($color,2);
+.curso-descrip {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: nth($color, 18);
+    color: nth($color, 9);
+    font-size: 20px;
+    margin-left: -2rem;
 }
+
 .dias-cursos {
-    color: nth($color,6);
-    font-size:xx-large;
-    align-items: center;
-    font-family: nth($fuentes,4);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: nth($color, 17);
+    color: nth($color, 9);
+    font-size: 30px;
+    margin-left: -2rem;
 }
-.cursos-completo{
-    color: nth($color,6);
-    font-size:xx-large;
-    align-items: center;
-    font-family: nth($fuentes,4);
+
+.cursos-completo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: auto;
+    text-align: center;
+    background-color: nth($color, 18);
+    color: nth($color, 9);
+    font-size: 30px;
+    margin-left: -2rem;
+    ;
 
 }
-.boton{
-    display: flex;
-}
-.boton{
-    justify-content: center;
-    border-radius: 30%;
+
+.bot-color {
+    background-color: nth($color, 15);
+    color: white;
+    font-family: nth($fuentes, 1);
     padding-bottom: 1rem;
-
-}
-
-.boton .boton-00{
     padding-top: 1rem;
-    background-color: nth($color,2);
-    font-size: nth($fuentes,2);
-    font-size: xx-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
 }
-
-
-

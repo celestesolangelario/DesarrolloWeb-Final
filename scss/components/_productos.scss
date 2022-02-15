@@ -1,4 +1,4 @@
-.fondo-productos{
+.fondo-productos {
     background-image: url("../../src/assets/img/otoñoDM.jpg");
     background-size: cover;
     background-repeat: no-repeat;
@@ -7,27 +7,54 @@
     background-blend-mode: screen;
 }
 
-.Productos-02{
-    font-family: nth($fuentes,4);
+.Productos-02 {
+    font-family: nth($fuentes, 4);
     margin: auto;
     text-align: center;
     background-color: rgba(44, 20, 68, 0.28);
-    color:nth($color,9);
+    color: nth($color, 9);
     font-size: 60px;
 
 }
 
-.card{
+.card {
     padding: .25rem;
-    background-color: nth($color,4);
-    border: 16px solid nth($color,4);
+    background-color: nth($color, 4);
+    border: 16px solid nth($color, 4);
     max-width: 100%;
     height: auto;
-    color: nth($color,2);
+    color: nth($color, 2);
 
 
 }
 
-.h-card{
-    height: 60rem;
+.h-card {
+    height: auto;
+
+    .card-title {
+        font-family: nth($fuentes, 6);
+        color: nth($color, 14);
+        font-size: 40px;
+
+
+    }
+
+    .card-text {
+        font-family: nth($fuentes, 6) !important;
+        color: nth($color, 14) !important;
+        font-size: 30px !important;
+        margin-top: 5% !important;
+
+
+    }
+
+    .bot-color {
+        background-color: nth($color, 15);
+        color: white;
+        font-family: nth($fuentes, 1);
+
+
+
+
+    }
 }

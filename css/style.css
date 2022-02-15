@@ -71,29 +71,27 @@ header ul li a {
 }
 
 footer {
-  background-color: rgba(66, 63, 63, 0.315);
+  background-color: rgba(66, 63, 63, 0.41);
+  width: 100%;
+  border-top: 5px solid rgba(255, 255, 255, 0.74);
   width: 100%;
 }
 footer .foo {
   display: flex;
-  font-family: "Lily Script One", cursive;
+  font-family: unset;
+  font-size: 1.5em;
   color: white;
-  margin-left: -3em;
-  padding-top: 1em;
-  width: 100%;
+  padding: 1em 2em;
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
 }
-footer .foo .mapa {
-  color: #d0a690;
-  padding-top: 5rem;
+footer .foo .tit-foot {
+  justify-self: center;
 }
-footer .foo .mapa .ig-face {
-  justify-content: center;
-  align-items: center;
-}
-footer .foo .mapa .ig-face a:last-of-type svg {
+footer .foo .ig-face a:last-of-type svg {
+  margin: 24px 0;
   fill: #97487d;
 }
-footer .foo .mapa .ig-face svg {
+footer .foo .ig-face svg {
   fill: white;
 }
 footer .linke {

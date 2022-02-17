@@ -49,7 +49,7 @@
         display: flex;
         font-size: xx-large;
         background-color: nth($color, 10);
-        backdrop-filter: blur (3px);
+        
 
     }
 }
@@ -118,19 +118,17 @@
 
 
     .mail {
-        display: flex;
-        font-size: xx-large;
-        background-color: nth($color, 3);
-        backdrop-filter: blur (3px);
-        color: nth($color, 5);
+        display: inline-block;
+        font-size: x-large;
+        background-color: nth($color,10);
+        color: nth($color,8);
     }
 
     .whp {
-        display: flex;
-        font-size: xx-large;
-        background-color: nth($color, 3);
-        backdrop-filter: blur (3px);
-        color: nth($color, 5);
+        display: inline-block;
+        font-size: x-large;
+        background-color: nth($color,10);
+        color: nth($color, 8);
 
     }
 

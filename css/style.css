@@ -143,7 +143,6 @@ footer .linke {
   display: flex;
   font-size: xx-large;
   background-color: #b6a7a7c9;
-  backdrop-filter: blur 3px;
 }
 
 .nombre {
@@ -200,18 +199,16 @@ footer .linke {
   color: #276569;
 }
 .c-m0 .mail {
-  display: flex;
-  font-size: xx-large;
-  background-color: rgba(66, 63, 63, 0.315);
-  backdrop-filter: blur 3px;
-  color: #d0a690;
+  display: inline-block;
+  font-size: x-large;
+  background-color: #b6a7a7c9;
+  color: black;
 }
 .c-m0 .whp {
-  display: flex;
-  font-size: xx-large;
-  background-color: rgba(66, 63, 63, 0.315);
-  backdrop-filter: blur 3px;
-  color: #d0a690;
+  display: inline-block;
+  font-size: x-large;
+  background-color: #b6a7a7c9;
+  color: black;
 }
 
 .fondo-cursos {

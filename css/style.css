@@ -395,7 +395,7 @@ h2 {
 
 .imagenes-produc01 {
   background-image: url(../src/assets/img/espejo2.jpg);
-  background-position-y: -240px;
+  background-position-y: -15em;
     background-repeat: no-repeat;
 }
 
@@ -413,6 +413,7 @@ h2 {
 
 .imagenes-produc05 {
   background-image: url(../src/assets/img/tapiz3.jpg);
+  background-position-x: 2px;
 }
 
 .imagenes-produc06 {
@@ -427,11 +428,12 @@ h2 {
 
 .imagenes-produc08 {
   background-image: url(../src/assets/img/tapiz6.jpg);
+  background-position-y:-5.125em;
 }
 
 .imagenes-produc09 {
   background-image: url(../src/assets/img/tapiz7.jpg);
-  background-position-y: -314px;
+  background-position-y: -19.375;
   background-repeat: no-repeat;
 }
 

@@ -2,11 +2,17 @@
 /* importar*/
 /* fuentes de google */
 @import url("https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap");
-.f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp, .logo, .header nav.linke {
+
+.f-comp .carrito .boton .pagos-00 .mp .nombre .nombre-01 .boton02 .c-m0 .mail .whp,
+.logo,
+.header nav.linke {
   display: flex;
   justify-content: center;
 }
-
+.logo-img{
+  width:  17.188em;
+  height: 17.188em;
+}
 /*MEDIAS QUERYS*/
 /*operadores*/
 .index {
@@ -40,26 +46,26 @@
 header .header {
   width: 100%;
 }
+
 @media screen and (min-width: 0px) and (max-width: 320px) {
   header .header {
     max-height: 3.5rem;
     width: 100%;
   }
 }
+
 header .logo {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+
 header ul li {
-  padding-right: 3rem;
-  padding-left: 3rem;
-  padding-top: 3rem;
-  padding-bottom: 8rem;
   list-style: none;
   font-size: xx-large;
   text-align: center;
   font-family: "Alegreya", serif;
 }
+
 header ul li a {
   color: #ab748b !important;
   text-shadow: 0px 3px 3px rgba(9, 4, 4, 0.6);
@@ -76,6 +82,7 @@ footer {
   border-top: 5px solid rgba(255, 255, 255, 0.74);
   width: 100%;
 }
+
 footer .foo {
   display: flex;
   font-family: unset;
@@ -84,19 +91,24 @@ footer .foo {
   padding: 1em 2em;
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.45);
 }
+
 footer .foo .tit-foot {
   justify-self: center;
 }
+
 footer .foo .ig-face a:last-of-type svg {
   margin: 24px 0;
   fill: #97487d;
 }
+
 footer .foo .ig-face svg {
   fill: white;
 }
+
 footer .linke {
   padding-top: 1rem;
 }
+
 @media screen and (min-width: 0px) and (max-width: 320px) {
   footer {
     max-height: 3.5rem;
@@ -116,28 +128,34 @@ footer .linke {
 .f-comp .carrito {
   display: flex;
 }
+
 .f-comp .carrito {
   justify-content: center;
   padding: 2rem;
 }
+
 .f-comp .boton {
   display: flex;
 }
+
 .f-comp .boton {
   justify-content: center;
   border-radius: 30%;
-  padding-top: 1rem;
+  margin: 1rem;
 }
+
 .f-comp .boton-01 {
   background-color: #ab748b;
   font-size: "Dancing Script", cursive;
   font-size: xx-large;
 }
+
 .f-comp .pagos-00 {
-  display: inline-block;
+  display: inline;
 }
+
 .f-comp .pagos-00 .mp {
-  padding-top: 1rem;
+  padding: 0rem 3rem 1rem 4rem;
   font-family: "Alegreya", serif;
   color: black;
   display: flex;
@@ -150,8 +168,8 @@ footer .linke {
 }
 
 .nombre {
-  padding-top: 1rem;
   justify-content: center;
+  margin: 1rem;
 }
 
 .nombre-01 {
@@ -160,10 +178,15 @@ footer .linke {
 
 .nombre-01 {
   justify-content: center;
-  padding-top: 1rem;
   font-size: medium;
   font-family: "Alegreya", serif;
   color: #276569;
+}
+
+.nombre-01 .contactanos-01 {
+  margin: 1rem;
+  height: 187px;
+  width: 298px;
 }
 
 .boton-02 {
@@ -187,23 +210,27 @@ footer .linke {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 100vh;
-  padding: 8rem;
+  height: 100%;
 }
+
 .c-m0 .con-01 {
   color: #ab748b;
+  margin: 20rem 0rem 0rem 0rem;
 }
+
 .c-m0 .envia-mail .wp {
   font-size: xx-large;
   font-family: "Alegreya", serif;
   color: #276569;
 }
+
 .c-m0 .mail {
   display: inline-block;
   font-size: x-large;
   background-color: #b6a7a7c9;
   color: black;
 }
+
 .c-m0 .whp {
   display: inline-block;
   font-size: x-large;
@@ -347,17 +374,148 @@ h2 {
 .h-card {
   height: auto;
 }
+
 .h-card .card-title {
   font-family: "Oooh Baby", cursive;
   color: #462222;
   font-size: 40px;
 }
+
+.imagenes {
+  width: 100%;
+  height: 30em;
+  background-size: cover;
+  background-position: center;
+}
+
+.imagenes-produc00 {
+  background-image: url(../src/assets/img/espejo1.jpg);
+
+}
+
+.imagenes-produc01 {
+  background-image: url(../src/assets/img/espejo2.jpg);
+  background-position-y: -240px;
+    background-repeat: no-repeat;
+}
+
+.imagenes-produc02 {
+  background-image: url(../src/assets/img/espejo3.jpg);
+}
+
+.imagenes-produc03 {
+  background-image: url(../src/assets/img/tapiz.jpg);
+}
+
+.imagenes-produc04 {
+  background-image: url(../src/assets/img/tapiz2.jpg);
+}
+
+.imagenes-produc05 {
+  background-image: url(../src/assets/img/tapiz3.jpg);
+}
+
+.imagenes-produc06 {
+  background-image: url(../src/assets/img/tapiz4.jpg);
+}
+
+.imagenes-produc07 {
+  background-image: url(../src/assets/img/tapiz5.jpg);
+  background-repeat: no-repeat;
+  background-position-y: -10rem;
+}
+
+.imagenes-produc08 {
+  background-image: url(../src/assets/img/tapiz6.jpg);
+}
+
+.imagenes-produc09 {
+  background-image: url(../src/assets/img/tapiz7.jpg);
+  background-position-y: -314px;
+  background-repeat: no-repeat;
+}
+
+.imagenes-produc10 {
+  background-image: url(../src/assets/img/tapiz8.jpg);
+}
+
+.imagenes-produc11 {
+  background-image: url(../src/assets/img/tapiz9.jpg);
+  background-position-y: -7em;
+  background-repeat: no-repeat;
+}
+
+.imagenes-produc12 {
+  background-image: url(../src/assets/img/tapices.jpg);
+}
+
+.imagenes-produc14 {
+  background-image: url(../src/assets/img/almohadonestapizalfombra.jpg);
+}
+
+.imagenes-produc15 {
+  background-image: url(../src/assets/img/alfombra.jpg);
+}
+
+.imagenes-produc16 {
+  background-image: url(../src/assets/img/alfombraytapiz.jpg);
+}
+
+.imagenes-produc17 {
+  background-image: url(../src/assets/img/alfombrapufftacho.jpg);
+}
+
+.imagenes-produc18 {
+  background-image: url(../src/assets/img/puffalfombra.jpg);
+}
+
+.imagenes-produc19 {
+  background-image: url(../src/assets/img/almohadon.jpeg);
+}
+
+.imagenes-produc20 {
+  background-image: url(../src/assets/img/almohadon2.jpg);
+}
+
+.imagenes-produc21 {
+  background-image: url(../src/assets/img/floreros.jpg);
+}
+
+.imagenes-produc22 {
+  background-image: url(../src/assets/img/cortina.jpg);
+}
+
+.imagenes-produc23 {
+  background-image: url(../src/assets/img/hamaca.jpg);
+}
+
+.imagenes-produc24 {
+  background-image: url(../src/assets/img/lampara.jpg);
+}
+
+.imagenes-produc25 {
+  background-image: url(../src/assets/img/cartera.jpg);
+}
+
+.imagenes-produc26 {
+  background-image: url(../src/assets/img/llaveros.jpg);
+}
+
+.imagenes-produc27 {
+  background-image: url(../src/assets/img/portamacetas.jpg);
+}
+
+.imagenes-produc28 {
+  background-image: url(../src/assets/img/portalapiceras.jpg);
+}
+
 .h-card .card-text {
   font-family: "Oooh Baby", cursive !important;
   color: #462222 !important;
   font-size: 30px !important;
   margin-top: 5% !important;
 }
+
 .h-card .bot-color {
   background-color: #674491;
   color: white;

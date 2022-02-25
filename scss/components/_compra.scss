@@ -5,52 +5,40 @@
     background-attachment: fixed;
     background-blend-mode: hard-light;
     background-color: #0f0b02;
-
 }
 
 .f-comp {
-
-
     .carrito {
         display: flex;
     }
-
     .carrito {
         justify-content: center;
         padding: 2rem;
     }
-
     .boton {
         display: flex;
     }
-
     .boton {
         justify-content: center;
         border-radius: 30%;
-        padding-top: 1rem;
-
-
+        margin: 1rem;
     }
-
     .boton-01 {
         background-color: nth($color, 2);
         font-size: nth($fuentes, 2);
         font-size: xx-large;
+    
     }
-
     .pagos-00 {
-        display: inline-block;
+        display: inline;
     }
-
     .pagos-00 .mp {
-        padding-top: 1rem;
+        padding: 0rem 3rem 1rem 4rem ;
         font-family: nth($fuentes, 1);
         color: nth($color, 8);
         display: flex;
         font-size: xx-large;
         background-color: nth($color, 10);
-        
-
     }
 }
 
@@ -59,79 +47,64 @@
 }
 
 .nombre {
-    padding-top: 1rem;
     justify-content: center;
-
+    margin: 1rem;
 }
 
 .nombre-01 {
     display: flex;
 }
-
 .nombre-01 {
     justify-content: center;
-    padding-top: 1rem;
     font-size: medium;
     font-family: nth($fuentes, 1);
     color: nth($color, 6);
-}
+    .contactanos-01{
+        margin: 1rem; 
+        height: 187px; 
+        width: 298px;
 
+    }
+}
 .boton-02 {
     display: flex;
 }
-
 .boton-02 {
     justify-content: center;
     border-radius: 30%;
     padding-top: 1rem;
-
-
 }
-
 .boton-03 {
     background-color: nth($color, 2);
     font-size: nth($fuentes, 2);
     font-size: xx-large;
 }
-
 .c-m0 {
-
     .con-01 {
         color: nth($color, 2);
+        margin: 20rem 0rem 0rem 0rem;
     }
-
     background-image: url(../../src/assets/img/fondo-productos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    height: 100vh;
-    padding: 8rem;
-
+    height: 100%;
     .envia-mail .wp {
-
         font-size: xx-large;
         font-family: nth($fuentes, 1);
         color: nth($color, 6);
-
-
     }
-
-
     .mail {
         display: inline-block;
         font-size: x-large;
-        background-color: nth($color,10);
-        color: nth($color,8);
+        background-color: nth($color, 10);
+        color: nth($color, 8);
     }
-
     .whp {
         display: inline-block;
         font-size: x-large;
-        background-color: nth($color,10);
+        background-color: nth($color, 10);
         color: nth($color, 8);
-
     }
-
-
 
 }

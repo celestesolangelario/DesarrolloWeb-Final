@@ -1,6 +1,7 @@
  /* fuentes de google */
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Yuji+Hentaigana+Akari&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Work+Sans&family=Yuji+Hentaigana+Akari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@1,400;1,800&family=Arima+Madurai:wght@300&family=Dancing+Script:wght@700&family=Imperial+Script&family=Lily+Script+One&family=Nunito:ital,wght@1,200&family=Oooh+Baby&family=Work+Sans&family=Yuji+Hentaigana+Akari&display=swap');
 
 
 
@@ -14,7 +15,7 @@ rgba(255, 255, 255,0.3),//4
 #5a9397b4,//7
 black,//8
 white,//9
-#b6a7a7c9,//10
+#8b7a7ac7,//10
 rgba(182, 167, 167, 0.561),//11
 #3a5330cc,//12
 #f0e8e8ab,//13
@@ -24,7 +25,8 @@ rgba(182, 167, 167, 0.561),//11
 rgba(44, 20, 68, 0.73),//17
 rgba(44, 20, 68, 0.4),//18
 #c8dfbf,//19
-#c1eeba73;//20
+#c1eeba73,//20
+#935f6994;//21
 
 
 $fuentes:
@@ -35,4 +37,8 @@ $fuentes:
 ('Nunito', sans-serif),//5
 ('Oooh Baby', cursive),//6
 ('Work Sans', sans-serif),//7
-('Yuji Hentaigana Akari', cursive);
+('Yuji Hentaigana Akari', cursive),//8
+('Trebuchet MS', sans serif),//9
+('Arima Madurai', cursive);//10
+
+

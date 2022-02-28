@@ -1,12 +1,11 @@
 .fondo-con-com {
-    background-image: url("../../src/assets/img/fondo-contactanos.jpg");
+    background-image: url("../../src/assets/img/fondo-contactanos.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-blend-mode: hard-light;
     background-color: #0f0b02;
 }
-
 .f-comp {
     .carrito {
         display: flex;
@@ -25,43 +24,39 @@
     }
     .boton-01 {
         background-color: nth($color, 2);
-        font-size: nth($fuentes, 2);
+        font-family: nth($fuentes, 10);
         font-size: xx-large;
-    
     }
     .pagos-00 {
         display: inline;
     }
     .pagos-00 .mp {
-        padding: 0rem 3rem 1rem 4rem ;
-        font-family: nth($fuentes, 1);
+        padding: 0rem 3rem 1rem 4rem;
+        font-family: nth($fuentes, 10);
         color: nth($color, 8);
         display: flex;
         font-size: xx-large;
         background-color: nth($color, 10);
     }
 }
-
 .nombre {
     display: flex;
 }
-
 .nombre {
     justify-content: center;
     margin: 1rem;
 }
-
 .nombre-01 {
     display: flex;
 }
 .nombre-01 {
     justify-content: center;
     font-size: medium;
-    font-family: nth($fuentes, 1);
+    font-family: nth($fuentes, 10);
     color: nth($color, 6);
-    .contactanos-01{
-        margin: 1rem; 
-        height: 187px; 
+    .contactanos-01 {
+        margin: 1rem;
+        height: 187px;
         width: 298px;
 
     }
@@ -76,35 +71,52 @@
 }
 .boton-03 {
     background-color: nth($color, 2);
-    font-size: nth($fuentes, 2);
+    font-family: nth($fuentes, 10);
     font-size: xx-large;
 }
-.c-m0 {
-    .con-01 {
-        color: nth($color, 2);
-        margin: 20rem 0rem 0rem 0rem;
-    }
-    background-image: url(../../src/assets/img/fondo-productos.jpg);
+.con-01 {
+    font-family: nth($fuentes, 10);
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: nth($color, 9);
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+.c-m {
+    background-color: nth($color, 10);
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     height: 100%;
-    .envia-mail .wp {
-        font-size: xx-large;
-        font-family: nth($fuentes, 1);
-        color: nth($color, 6);
+    margin: 4rem 0;
+    padding: 1.5rem 0rem 1.5rem 0rem;
+    display: flex;
+    justify-content: space-around;
+    font-family: nth($fuentes, 10);
+        .envia-mail {
+        text-align: end;
+        a {
+            color: white;
+            text-decoration: none;
+            :hover {
+                color: nth($color, 15)
+            }
+            svg {
+                justify-self: center;
+            }
+        }
     }
-    .mail {
-        display: inline-block;
-        font-size: x-large;
-        background-color: nth($color, 10);
-        color: nth($color, 8);
+    .wp {
+        text-align: center;
+        a {
+            color: white;
+            text-decoration: none;
+            :hover {
+                color: nth($color, 15)
+            }
+        }
     }
-    .whp {
-        display: inline-block;
-        font-size: x-large;
-        background-color: nth($color, 10);
-        color: nth($color, 8);
-    }
-
 }

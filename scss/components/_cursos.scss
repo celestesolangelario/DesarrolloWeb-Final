@@ -1,5 +1,5 @@
 .fondo-cursos {
-    background-image: url("../../src/assets/img/Fondocursos.JPG");
+    background-image: url("../../src/assets/img/Fondocursos.webp");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -7,15 +7,18 @@
     background-blend-mode: hard-light;
 }
 
-
+/* comienzo de seccion de cursos*/
 
 .aprende-cn {
-    font-family: nth($fuentes, 4);
-    margin: auto;
+    font-family: nth($fuentes, 10);
+    margin-top: 5rem;
     text-align: center;
-    background-color: nth($color, 17);
+    background-color: rgba(44, 20, 68, 0.28);
     color: nth($color, 9);
     font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 .cursos {
@@ -35,14 +38,14 @@
     background-color: nth($color, 18);
     color: nth($color, 9);
     font-size: xx-large;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: nth($fuentes, 10);
     list-style-type: none;
     margin-left: -2rem;
 }
 
 
 .curso-descrip {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:nth($fuentes, 10);
     margin: auto;
     text-align: center;
     background-color: nth($color, 18);
@@ -52,7 +55,7 @@
 }
 
 .dias-cursos {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: nth($fuentes, 10);
     margin: auto;
     text-align: center;
     background-color: nth($color, 17);
@@ -62,7 +65,7 @@
 }
 
 .cursos-completo {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: nth($fuentes, 10);
     margin: auto;
     text-align: center;
     background-color: nth($color, 18);

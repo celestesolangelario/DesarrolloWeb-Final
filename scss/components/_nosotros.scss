@@ -1,19 +1,20 @@
 .Nosotros{
-    background-image: url("../../src/assets/img/tapiz4.jpg");
+
+    background-image: url("../src/assets/img/tapiz4.webp");
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed; 
+    background-attachment: fixed;
 }
 
 
 
 h2 {
-    font-family: nth($fuentes,4);
+    font-family: nth($fuentes,10);
     margin: auto;
     text-align: center;
     background-color: nth($color,10);
     color:nth($color,9);
-    font-size: 100px;
+    font-size: 80px;
 }
 
 .FONDO-00{
@@ -24,13 +25,22 @@ h2 {
 .col p{
 
 backdrop-filter: blur (20px);
-margin-top: 20%;
-
+margin-top: 4%;
+padding: 2em 5rem;
 color: nth($color,9);
 font-size: 24px;
 box-shadow: nth($color,7);
 }
+.text-color, .text-color01, .text-color02{
+    font-family: nth($fuentes,10);
+}
 
+.text-color01{
+    text-align: center;
+}
+.text-color02{
+    text-align: right;
 
+}    
 
 

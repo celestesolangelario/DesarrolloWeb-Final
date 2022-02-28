@@ -1,12 +1,13 @@
 /*anidamiento*/
 .index {
-    background-image: url(../../src/assets/img/fondoindex.jpg);
+    background-image: url(../../src/assets/img/fondoindex.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-
+/*comienzo del header*/
 header {
+
     .header {
         width: 100%;
 
@@ -15,87 +16,126 @@ header {
             width: 100%;
         }
     }
-
     .logo {
-        padding-top: 4rem;
+        padding-top: 3rem;
         padding-bottom: 4rem;
     }
-    
-    ul {
-        
-        li {
-        
-            list-style: none;
-            font-size: xx-large;
-            text-align: center;
-            font-family: nth($fuentes, 1);
+    .logo-img{
+        max-width: 80%;
 
-            a {
-                
-                color: nth($color, 2) !important;
-                text-shadow: 0px 3px 3px rgba(9, 4, 4, 60%);
-                
-            }
-
-        }
     }
+    .fondo-menu {
+        background: linear-gradient(90deg, rgba(0, 0, 0, 0) 0%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(0, 0, 0, 0) 100%) !important;
 
-}
-
-
-
-
-
-.logo {
-    padding-top: 9rem;
-    padding-bottom: 4rem;
-}
-
-footer {
-    background-color: rgb(66 63 63 / 41%);
-    width: 100%;
-    border-top: 5px solid rgba(255, 255, 255, 74%);
-
-    .foo {
-        display: flex;
-        font-family: unset;
-        font-size: 1.5em;
-        color: nth($color, 9);
-        padding: 1em 2em;
-        text-shadow: 0 0 15px rgb(0 0 0 / 45%);
-
-        .tit-foot {
-            justify-self: center;
-        }
-
-        .ig-face {
-
-
-            a:last-of-type {
-                svg {
-                    margin: 24px 0;
-                    fill: #97487d;
+        ul {
+            li {
+                list-style: none;
+                font-size: xx-large;
+                text-align: center;
+                font-family: nth($fuentes, 10);
+                a {
+                    color: nth($color, 2) !important;
+                    text-shadow: 0px 3px 3px rgba(9, 4, 4, 60%);
+                    transition: all .5s;
                 }
             }
+        }
+    }
+}
+.nav-link:hover {
+    color: nth($color, 4) !important;
+}
+.index-inv {
+    font-family: nth($fuentes, 10);
+    margin-top: 5rem;
+    text-align: center;
+    background-color: rgba(44, 20, 68, 0.28);
+    color: nth($color, 9);
+    font-size: 60px;
+    text-shadow: 7px 6px 7px #060606a1;
+    padding: 0.4em 0;
+    -webkit-font-smoothing: antialiased;
+}
+.imagenes-index {
+    background-color: nth($color, 21);
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 400PX;
+    
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
 
 
+    .index-img {
 
-            svg {
+        background-size: cover;
+        border-radius: 15px;
+        box-shadow: 2px 0px 9px 3px #060606a1;
+        width: 30rem;
+        height: 40rem;
+        min-width: 350px;
+    }
 
-                fill: white;
+        .imagen-index01 {
+            background-image: url(../../src/assets/img/index1.webp);
+        }
+
+            .imagen-index02 {
+                background-image: url(../../src/assets/img/index2.webp);
+
             }
+
+            .imagen-index03 {
+                background-image: url(../../src/assets/img/index3.webp);
+
+            }
+        
+    
+}
+
+    /*comienzo del footer*/
+    footer {
+        background-color: rgb(66 63 63 / 41%);
+        width: 100%;
+        border-top: 5px solid rgba(255, 255, 255, 74%);
+
+        .foo {
+            display: flex;
+            font-family: nth($fuentes, 10);
+            font-size: 1.5em;
+            color: nth($color, 9);
+            padding: 1em 2em;
+            text-shadow: 0 0 15px rgb(0 0 0 / 45%);
+
+            .tit-foot {
+                justify-self: center;
+            }
+
+            .ig-face {
+                a:last-of-type {
+                    svg {
+                        margin: 24px 0;
+                        fill: #97487d;
+                    }
+                }
+
+                svg {
+                    fill: white;
+                }
+            }
+        }
+
+        .linke {
+            padding-top: 1rem;
+        }
+
+        width:100%;
+
+        @include mqs(sm1, sm2) {
+            max-height: 3.5rem;
+            width: 100%;
         }
     }
 
-    .linke {
-
-        padding-top: 1rem;
-    }
-
-    width:100%;
-
-    @include mqs(sm1, sm2) {
-        max-height: 3.5rem;
-        width: 100%;
-    }
-}
+    /*fin del footer*/
